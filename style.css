@@ -1,0 +1,214 @@
+
+
+*{
+    background-color: black;
+}
+
+body{
+    color: white;
+}
+
+
+.options>a{
+    font-size: 20px;
+    text-decoration: none;
+    padding:0;
+    margin: 0px 50px;
+    color: white;
+}
+
+
+.options>a:hover{
+    color:pink;
+
+}
+
+
+
+
+header>h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 100px;
+    letter-spacing: 10px;
+    
+}
+header>h1:hover{
+    color: pink;
+}
+header>p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-indent: 900px;
+}
+
+.options{
+    display: grid;
+    grid-template-columns: repeat(5,300px);
+
+}
+
+
+#qualifications{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+
+.Quali>table{
+    background-color:white;
+    font-size:20px;
+    padding:0;
+    margin: 10px auto;
+
+}
+
+.Quali>#other{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-decoration: underline;
+
+}
+
+.others>li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:20px;
+    padding:1px;
+}
+
+.image>h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    text-decoration: underline;
+}
+
+.im{
+    display: grid;
+    grid-template-columns:repeat(4,380px);
+}
+
+
+
+.i1{
+    width: 300px;
+    height:300px;
+    padding:0;
+    border:5px solid white;
+    margin:10px 10px;
+} 
+
+
+
+
+.i2{
+    width: 300px;
+    height:300px;    
+    padding:0;
+    border:5px solid white;
+    margin:10px 10px;    
+
+}
+
+.i3{
+    width: 300px;
+    height:300px;    
+    padding:0;
+    border:5px solid white;
+    margin:10px 10px;    
+
+
+}
+
+.i4{
+    width: 300px;
+    height:300px;
+    padding:0;
+    border:5px solid white;
+    margin:10px 10px;    
+
+}
+
+#contact>h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    text-decoration: underline;
+
+}
+
+.contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:20px;
+    
+}
+
+#review>h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    text-decoration: underline;
+}
+
+.reviews>p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:20px;    
+
+}
+
+.re{
+    display: block;
+    margin:auto;
+    font-size: 20px;
+    width:400px;
+    height:100px
+
+}
+
+.star{
+
+    font-size:30px;
+    text-decoration: underline;    
+
+}
+
+.check{
+    display:grid;
+    gap:20px;
+    grid-template-rows: repeat(5,20px);
+    font-size:20px;
+}
+
+fieldset{
+    display: block;
+    margin: 0px auto;
+    width: 500px;
+    height: 200px;
+}
+
+.re1{
+    display: block;
+    margin:10px auto;
+    font-size: 20px;
+    background-color: white;
+
+}
